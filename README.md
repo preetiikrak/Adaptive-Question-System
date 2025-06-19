@@ -1,4 +1,4 @@
-# Adaptive Quiz System using Reinforcement Learning
+# Adaptive Quiz System 
 
 This project is an intelligent, adaptive quiz platform built using Python and Flask. It leverages a custom reinforcement learning model to personalize question selection based on the student's proficiency level and topic performance. Students take a 30-question quiz spanning Math, Python, and Machine Learning topics. Their proficiency and scores are updated dynamically and stored in a persistent CSV file.
 
