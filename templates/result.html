@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8-sig">
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        p, li {
+            font-size: 18px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Congratulations!</h1>
+
+
+{% if proficiency is not none %}
+    <p><strong>Final Proficiency:</strong> {{ "{:.3f}".format(proficiency) }}</p>
+{% else %}
+    <p><strong>Final Proficiency:</strong> N/A</p>
+{% endif %}
+
+<p><strong>Final Score:</strong> {{ score }}%</p>
+
+
+{% if topic_scores %}
+    <h2>Topic-wise Performance:</h2>
+    <ul>
+        {% for topic, score in topic_scores.items() %}
+            <li>{{ topic }}: {{ score }}%</li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No topic-wise data available.</p>
+{% endif %}
+
+<div class="button-container">
+    <a href="/" class="button">Take Another Quiz</a>
+    {% if topic_scores %}
+    {% endif %}
+    {% if weak_topics %}
+    <a href="{{ url_for('quiz2') }}" class="button">Take Another Quiz</a>
+    {% endif %}
+</div>
+
+</body>
+</html>

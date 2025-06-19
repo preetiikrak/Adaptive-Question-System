@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8-sig">
+    <title>Adaptive Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Question {{ question_num }} of 30</h2>
+    <p><strong>{{ question.prompt }}</strong></p>
+
+    <form method="POST">
+        <div class="options">
+            <label>
+                <input type="radio" name="option" value="A" required> {{ question.A }}
+            </label>
+            <label>
+                <input type="radio" name="option" value="B"> {{ question.B }}
+            </label>
+            <label>
+                <input type="radio" name="option" value="C"> {{ question.C }}
+            </label>
+            <label>
+                <input type="radio" name="option" value="D"> {{ question.D }}
+            </label>
+            <label>
+                <input type="radio" name="option" value="E"> {{ question.E }}
+            </label>
+        </div>
+        <button type="submit">Submit Answer</button>
+    </form>
+</div>
+
+</body>
+</html>

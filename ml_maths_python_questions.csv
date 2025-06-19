@@ -1,0 +1,105 @@
+﻿question_id,prompt,A,B,C,D,E,answer,difficulty,topic
+1,What is the output of 2 + 3 * 4?,14,20,10,12,16,A,0.1,Math
+2,Which of the following is not a valid Python data type?,int,list,tuple,array,dict,D,0.2,Python
+3,Which library is commonly used for data manipulation in Python?,numpy,pandas,matplotlib,sklearn,requests,B,0.2,Python
+4,In machine learning  what does 'overfitting' mean?,Model performs well on training data but poorly on test data,Model performs poorly on both training and test data,Model has too few features,Model is trained for too few epochs,Model uses incorrect loss function,A,0.4,Machine Learning
+5,Which activation function is commonly used in binary classification problems?,ReLU,Sigmoid,Tanh,Softmax,Linear,B,0.5,Machine Learning
+6,What is the range of the sigmoid function?,"(-∞, ∞)","(0, 1)","[-1, 1]","[0, 1]","(-1, 1)",B,0.3,Machine Learning
+7,Which of the following is not a supervised learning algorithm?,Linear Regression,K-Means,Decision Tree,Random Forest,Logistic Regression,B,0.4,Machine Learning
+8,What is the purpose of a validation set in ML?,To train the model,To test final performance,To tune hyperparameters,To collect more data,To visualize results,C,0.3,Machine Learning
+9,Which Python keyword is used to define a function?,def,class,return,import,lambda,A,0.1,Python
+10,What is the result of list(range(3)) in Python?,"[0, 1, 2]","[1, 2, 3]","[0, 1, 2, 3]",[2],None,A,0.1,Python
+11,What is the derivative of x²?,x,2x,2,½x,x³,B,0.4,Math
+12,Which method is used to find the mean of a NumPy array?,np.average(),np.mean(),np.sum() / len(),All of the above,None of the above,D,0.3,Python
+13,What is the purpose of cross-validation?,Reduce training time,Improve model interpretability,Estimate model performance on unseen data,Increase dataset size,Prevent underfitting,C,0.4,Machine Learning
+14,What does the acronym RMSE stand for?,Root Mean Squared Error,Residual Mean Square Estimator,Relative Model Squared Error,Rooted Mean Standard Error,Rate of Mean Square Error,A,0.5,Machine Learning
+15,Which sorting algorithm has an average-case complexity of O(n log n)?,Bubble Sort,Insertion Sort,Quick Sort,Selection Sort,All of the above,C,0.6,Python
+16,Which of the following is a clustering algorithm?,KNN,SVM,KMeans,PCA,Naive Bayes,C,0.5,Machine Learning
+17,What is the value of f(x) = 2x + 3 when x = 4?,10,11,12,13,14,B,0.1,Math
+18,"What is the output of print(len([1,2,3]))",1,2,3,4,Error,C,0.1,Python
+19,What is the purpose of gradient descent in ML?,To increase accuracy,To reduce error by updating weights,To generate new features,To compress data,To improve visualization,B,0.5,Machine Learning
+20,What is the equation of a line with slope m and y-intercept b?,y = mx + b,y = bx + m,y = mx - b,y = m/x + b,y = b/m + x,A,0.2,Math
+21,Which of the following is not a hyperparameter in neural networks?,Learning rate,Batch size,Epochs,Number of layers,Activation values,E,0.6,Machine Learning
+22,Which of the following functions is used to handle missing values in pandas?,dropna(),fillna(),replace(),Both A and B,All of the above,E,0.3,Python
+23,Which of the following is true about unsupervised learning?,It uses labeled data,It finds hidden patterns in unlabeled data,It requires human supervision,It always produces numerical outputs,It is used for regression tasks,B,0.4,Machine Learning
+24,What is the default base of the math.log() function in Python?,e,10,2,π,Not defined,A,0.3,Python
+25,What does the 'bias-variance tradeoff' refer to in ML?,Tradeoff between model speed and memory usage,Tradeoff between overfitting and underfitting,Tradeoff between precision and recall,Tradeoff between training and testing time,Tradeoff between feature selection and model building,B,0.6,Machine Learning
+26,What is the role of a cost function in machine learning?,To measure how fast the model runs,To evaluate model performance,To calculate prediction confidence,To normalize input data,To store intermediate results,B,0.5,Machine Learning
+27,Which of the following is a correct way to create a dictionary in Python?,"d = {1, 2}",d = [1:2],d = {1=2},d = {1:2},d = (1:2),D,0.2,Python
+28,Which of the following is not a built-in Python data structure?,List,Dictionary,String,Queue,Set,D,0.3,Python
+29,What is the primary use of PCA in machine learning?,Classification,Clustering,Dimensionality reduction,Regression,Data cleaning,C,0.5,Machine Learning
+30,What is the output of 5 // 2 in Python?,2,2.5,3,1,2,A,0.1,Math
+31,Which of the following is used to standardize features in sklearn?,StandardScaler,MinMaxScaler,Normalizer,OneHotEncoder,LabelEncoder,A,0.4,Machine Learning
+32,What is the value of 2^5 in Python?,10,25,32,16,30,C,0.2,Math
+33,Which of the following statements is true about deep learning?,It only works with small datasets,It uses shallow networks,It involves multiple hidden layers,It doesn't require GPUs,It is slower than logistic regression,C,0.5,Machine Learning
+34,Which of the following is a linear algebra library in Python?,pandas,numpy,matplotlib,seaborn,scikit-learn,B,0.3,Python
+35,What is the formula for variance?,Σ(x - μ)/n,Σ(x - μ)^2 /n,Σ|x - μ|/n,Σ(x - μ)^3/n,Σ(x - μ)^2/n^2,B,0.6,Math
+36,Which of the following is used to encode categorical variables in scikit-learn?,StandardScaler,MinMaxScaler,OneHotEncoder,PCA,SimpleImputer,C,0.4,Machine Learning
+37,"What is the output of print(""Hello""[1]) in Python?",H,e,l,l,o,B,0.1,Python
+38,Which of the following is not a loss function used in neural networks?,Mean Squared Error,Cross Entropy Loss,Hinge Loss,ReLU Loss,Log Loss,D,0.6,Machine Learning
+39,What is the output of 10 % 3 in Python?,1,3,0,2,4,A,0.1,Math
+40,Which of the following is a regression evaluation metric?,Accuracy,Precision,F1 Score,MSE,Recall,D,0.4,Machine Learning
+41,What is the purpose of the __init__ method in Python classes?,To delete an object,To initialize an object's attributes,To call a parent class,To compare two objects,To print an object,B,0.3,Python
+42,Which of the following is not a step in the K-means algorithm?,Initialize centroids,Assign points to nearest centroid,Update centroids,Prune clusters,Repeat until convergence,D,0.5,Machine Learning
+43,Which of the following is a regularization technique?,Dropout,Pooling,Flattening,Convolution,Normalization,A,0.5,Machine Learning
+44,"What is the shape of a NumPy array created by np.zeros((3, 4))","(3,4)","(4,3)","(3,3)","(4,4)","(3,2)",A,0.2,Python
+45,Which of the following is used to install Python packages?,pip,setuptools,conda,All of the above,None of the above,D,0.3,Python
+46,Which of the following is not a valid loop in Python?,for,while,do-while,List comprehension,Generator expression,C,0.3,Python
+47,What is the purpose of the softmax function in neural networks?,To introduce non-linearity,To normalize outputs into probabilities,To reduce overfitting,To compute gradients,To initialize weights,B,0.6,Machine Learning
+48,What is the value of log₂(8)?,2,3,4,1,0,B,0.4,Math
+49,Which of the following is not a Python exception?,SyntaxError,ValueError,TypeError,KeyError,ArrayError,E,0.3,Python
+50,What is the main advantage of stochastic gradient descent over batch gradient descent?,Faster convergence,Less noisy updates,More stable,Requires less memory,Can be run in parallel,D,0.5,Machine Learning
+51,What is the output of list comprehension [x*2 for x in range(3)]?,"[0,2,4]","[1,2,3]","[2,4,6]","[0,1,2]","[2,3,4]",A,0.2,Python
+52,Which of the following is used to split a dataset into training and testing sets in sklearn?,train_test_split,cross_val_score,GridSearchCV,make_pipeline,validation_curve,A,0.3,Machine Learning
+53,Which of the following is not a parameter tuning technique?,Grid Search,Random Search,Bayesian Optimization,Cross Validation,Early Stopping,D,0.5,Machine Learning
+54,What is the output of 3 ** 2 in Python?,5,6,8,9,12,D,0.1,Math
+55,Which of the following is used to read a CSV file in pandas?,read_csv,read_excel,read_json,read_sql,read_xml,A,0.2,Python
+56,Which of the following is a correct way to comment in Python?,//,/* */,#,<!-- -->,''' ''',C,0.1,Python
+57,Which of the following is not a machine learning framework?,TensorFlow,Keras,PyTorch,XGBoost,NumPy,E,0.3,Python
+58,What is the purpose of a confusion matrix?,To visualize training loss,To show predicted vs actual labels,To optimize hyperparameters,To plot feature importance,To track epoch times,B,0.4,Machine Learning
+59,What is the value of π rounded to two decimal places?,3.14,3.15,3.16,3.17,3.18,A,0.2,Math
+60,Which of the following is used to remove outliers from a dataset?,Z-score normalization,Min-max scaling,One-hot encoding,PCA,Z-score filtering,E,0.5,Machine Learning
+61,What is the output of not True in Python?,FALSE,TRUE,1,0,Null,A,0.1,Python
+62,Which of the following is not a Python module?,os,sys,random,ArrayList,Collections,D,0.3,Python
+63,Which of the following is a probabilistic classifier?,SVM,Decision Tree,KNN,Naive Bayes,Random Forest,D,0.4,Machine Learning
+64,What is the value of 5! (factorial)?,24,60,120,720,100,C,0.3,Math
+65,Which of the following is used to create plots in Python?,pandas,numpy,matplotlib,requests,json,C,0.2,Python
+66,Which of the following is not a valid variable name in Python?,_var,var1,myVar,MyVar,2ndVar,E,0.2,Python
+67,"What is the output of 1 == ""1"" in Python?",TRUE,FALSE,Error,Depends on context,Always True,B,0.3,Python
+68,Which of the following is a reinforcement learning algorithm?,Q-learning,K-means,DBSCAN,AdaBoost,SVM,A,0.6,Machine Learning
+69,What is the output of print(type(5.0)) in Python?,<class 'int'>,<class 'float'>,<class 'str'>,<class 'bool'>,<class 'complex'>,B,0.1,Python
+70,Which of the following is used to evaluate classification models?,MSE,R-squared,F1 Score,MAE,Confusion Matrix,E,0.4,Machine Learning
+71,"What is the formula for Euclidean distance between two points (x1, y1) and (x2, y2)?",√[(x2−x1)² + (y2−y1)²],|x2−x1| + |y2−y1|,max(|x2−x1||y2−y1|),x2−x1 + y2−y1,(x2−x1)(y2−y1),A,0.5,Math
+72,Which of the following is a web scraping library in Python?,BeautifulSoup,NumPy,Pandas,Matplotlib,Scikit-learn,A,0.3,Python
+73,Which of the following is not a valid string method in Python?,split(),lower(),upper(),reverse(),join(),D,0.3,Python
+74,What is the value of 10//3 in Python?,3,3.3,3,4,2,A,0.1,Python
+75,Which of the following is used to serialize Python objects?,json,pickle,yaml,All of the above,Only A and C,D,0.4,Python
+76,Which of the following is not a Python package manager?,pip,conda,pyenv,yarn,apt-get,E,0.3,Python
+77,Which of the following is used to build deep learning models in Python?,Pandas,Numpy,Scikit-learn,TensorFlow,OpenCV,D,0.4,Machine Learning
+78,Which of the following is not a valid file mode in Python?,r,w,a,b,x,E,0.2,Python
+79,What is the output of bool([]) in Python?,TRUE,FALSE,Error,Depends on content,Always True,B,0.3,Python
+80,Which of the following is used to create APIs in Python?,Flask,Django,Starlette,All of the above,Only A and B,D,0.4,Python
+81,Which of the following is not a valid boolean value in Python?,TRUE,FALSE,1,0,none,E,0.2,Python
+82,Which of the following is used to detect anomalies in data?,Isolation Forest,Random Forest,Decision Tree,Linear Regression,KNN,A,0.6,Machine Learning
+83,What is the output of 10 % 3 in Python?,1,2,3,0,4,B,0.1,Math
+84,Which of the following is not a valid Python loop?,for,while,do while,for else,while else,C,0.2,Python
+85,Which of the following is used to convert a string to lowercase in Python?,lower(),upper(),capitalize(),swapcase(),title(),A,0.1,Python
+86,Which of the following is used to deploy machine learning models?,Docker,Flask,Streamlit,All of the above,Only A and B,D,0.4,Machine Learning
+87,Which of the following is not a valid Python operator?,+,*,**,->,<<,D,0.2,Python
+88,Which of the following is used to perform unit testing in Python?,unittest,pytest,nose,All of the above,Only A and B,D,0.3,Python
+89,Which of the following is not a valid function definition in Python?,def func():,def func(a):,def func(a=2):,def func(*a):,def 2func():,E,0.2,Python
+90,Which of the following is used to implement queues in Python?,queue,module,stack,list,heap,E,0.5,Python
+91,Which of the following is not a valid Python file extension?,.py,.ipynb,.java,.pyc,.pyw,C,0.1,Python
+92,Which of the following is used to represent infinity in Python?,inf,infinity,Inf,Infinity,float('inf'),E,0.3,Python
+93,Which of the following is not a valid data preprocessing technique?,Scaling,Encoding,Imputation,Smoothing,Validation,E,0.4,Machine Learning
+94,Which of the following is used to sort a list in place in Python?,sorted(),sort(),reverse(),order(),arrange(),B,0.2,Python
+95,Which of the following is used to check if a key exists in a dictionary?,in,has_key(),exists(),contains(),match(),A,0.3,Python
+96,Which of the following is not a valid import statement in Python?,import math,from math import pi,import math as m,import *,from math import *,D,0.3,Python
+97,Which of the following is used to create virtual environments in Python?,virtualenv,venv,pyenv,All of the above,Only A and B,D,0.4,Python
+98,Which of the following is used to create GUI applications in Python?,Tkinter,PyQt,Kivy,All of the above,Only A and B,D,0.4,Python
+99,Which of the following is used to write asynchronous code in Python?,asyncio,threading,multiprocessing,concurrent.futures,All of the above,E,0.5,Python
+100,Which of the following is not a valid Python IDE?,PyCharm,IDLE,VS Code,Sublime Text,Jupyter Notebook,E,0.2,Python
+101,What is regularization in ML?,Reduces training time,Improves generalization,Increases model size,Visualizes data,None,B,0.5,Machine Learning
+102,Which of the following is a classification metric?,MSE,R-squared,Accuracy,MAE,Cross Validation,C,0.4,Machine Learning
+103,What does SVM stand for?,Support Vector Machine,Simple Vector Method,Statistical Variance Metric,Sample Value Matrix,None,A,0.5,Machine Learning
+104,Which algorithm is used for classification and regression?,KMeans,PCA,Decision Tree,Queue,Stack,C,0.4,Machine Learning
