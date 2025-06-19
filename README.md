@@ -21,4 +21,5 @@ python app.py
 ## Author
 
 Preeti Karki
-Bioinformatics • AI in Education • Adaptive Learning Systems
+
+-Bioinformatics - AI in Education - Adaptive Learning Systems
